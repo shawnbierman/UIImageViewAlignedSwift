@@ -54,6 +54,24 @@ github "sochalewski/UIImageViewAlignedSwift"
 
 Run `carthage update` to build the framework and drag the built `UIImageViewAlignedSwift.framework` into your Xcode project.
 
+### Swift Package Manager
+
+[Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
+
+The Package Manager is included in Swift 3.0 and above.
+
+To integrate UIImageViewAlignedSwift into your Xcode project using Swift Package Manager, 
+
+```
+In Xcode, choose:
+
+File -> Swift Packages -> Add Package Dependencies. 
+In the search field add: https://github.com/sochalewski/UIImageViewAlignedSwift
+
+```
+
+This will download the project and add it as a dependency.
+
 ## What is it?
 
 It is a subclass of `UIImageView` that allows you to customize the alignment of the displayed image inside the view's frame.
