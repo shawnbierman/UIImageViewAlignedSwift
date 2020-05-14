@@ -25,6 +25,6 @@ let package = Package(
         .target(
             name: "UIImageViewAlignedSwift",
             dependencies: [],
-            path: "Sources")),
+            path: "Sources"),)
     ]
 )
